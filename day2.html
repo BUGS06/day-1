@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran</title>
+</head>
+<body>
+    <h1>Formulir Pendaftaran</h1>
+
+    <form action="#" method="post">
+
+        <label for="name">Nama Lengkap:</label><br>
+        <input type="text" name="name" id="name"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="text" name="email" id="email"><br><br>
+
+        <label for="date">Tanggal Lahir:</label><br>
+        <input type="text" name="date" id="date"><br><br>
+
+        <fieldset>
+            <legend>Gender:</legend>
+
+            <div>
+                <input type="radio" name="Gander" id="Laki-laki">
+                 <label for="Laki-laki">Laki-laki</label><br>
+            </div>
+            <div>
+                <input type="radio" name="Gander" id="Wanita">
+                <label for="Wanita">Wanita</label><br>
+            </div>
+        </fieldset><br><br>
+
+        <label for="Kota-Asal">Kota Asal:</label><br>
+
+        <select name="Kota" id="Pilihan-Kota">
+            <option value="#">--Pilih Daerah Anda--</option>
+            <option value="cirebon">Cirebon</option>
+            <option value="jakarta">Jakarta</option>
+            <option value="surabaya">Surabaya</option>
+            <option value="bandung">Bandung</option>
+        </select><br><br>
+
+        <label for="deskripsi">Deskripsikan Diri anda:</label><br>
+        <textarea name="deskripsi" id="deskripsi" rows="5" cols="33"></textarea><br><br>
+
+        <button>Submit</button>
+    </form>
+</body>
+</html>
