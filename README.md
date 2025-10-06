@@ -1,2 +1,2 @@
-# day-1
+# New Journey
 saya baru memulai belajar dan baru berani untuk menampilkan hasil kerja saya
