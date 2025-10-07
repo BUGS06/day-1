@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    /* === GAYA UMUM === */
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f9fa;
+        color: #333;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        background: linear-gradient(90deg, #0077b6, #00b4d8);
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        background-color: #023e8a;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: inline-block;
+        margin: 10px;
+    }
+
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 6px 12px;
+    }
+
+    nav ul li a:hover {
+        background-color: #90e0ef;
+        color: #03045e;
+        border-radius: 5px;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    th, td {
+        border: 1px solid #555;
+        padding: 8px;
+        text-align: center;
+    }
+
+    th {
+        background-color: #00b4d8;
+        color: white;
+    }
+
+    form {
+        background-color: #caf0f8;
+        padding: 20px;
+        border-radius: 10px;
+        width: 60%;
+        margin-top: 20px;
+    }
+
+    input, button, textarea {
+        padding: 10px;
+        width: 95%;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        border: 1px solid #aaa;
+    }
+
+    button {
+        background-color: #0077b6;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #0096c7;
+    }
+
+    footer {
+        background-color: #03045e;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        margin-top: 20px;
+    }
+
+    footer a {
+        color: #ffd60a;
+        text-decoration: none;
+    }
+
+    footer a:hover {
+        color: #ffb703;
+    }
+</style>
+
+</head>
+<body>
+    <header>
+        <h1>Muhamad Agil Muhyi</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Tentang Saya</a></li>
+                <li><a href="#">Pengalaman</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <input type="search" placeholder="Pencarian..">
+        <button>Submit</button>
+    </header>
+    <main>
+        <section id="tentang"> 
+            <h2>Tentang Saya</h2>
+            <img src="IMG-20240814-WA0044.jpg" alt="Foto_saya" width="200">
+            <p>Perkenalkan, saya Muhamad Agil Muhyi. Saya sedang belajar HTML dan ingin menjadi seorang web developer profesional. Saya suka hal-hal yang berhubungan dengan teknologi dan pemrograman.</p>
+
+            <h3>Hobi Saya</h3>
+            <ul>
+                <li>Bermain Catur</li>
+                <li>Berenang</li>
+                <li>Membaca Buku</li>
+            </ul>
+        </section>
+        <section id="pengalaman">
+            <h2>Pengalaman Kerja</h2>
+            <table border="1">
+                <tr>
+                    <th>No</th>
+                    <th>Nama Perusahaan</th>
+                    <th>Bagian</th>
+                    <th>Lama Bekerja</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Pt Kayaba Indonesia</td>
+                    <td>operator finnishgood</td>
+                    <td>1 tahun 6 bulan</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Pt Resin Plating Technology</td>
+                    <td>operator quality</td>
+                    <td>1 tahun 11 bulan</td>
+                </tr>
+            </table>
+        </section><br>
+        <section id="contact">
+            <form action="#" method="get">
+                <label for="nama">Nama Lengkap:</label>
+                <input type="text" id="nama" name="nama"><br><br>
+
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email"><br><br>
+
+                <label for="No_HP">Whatsapp:</label>
+                <input type="text" name="No_HP" id="No_HP"><br><br>
+                <button>Submit</button>
+            </form>
+        </section>
+    </main><br>
+
+    <footer><p>&copy; 2025 Muhamad Agil Muhyi |<a href="https://github.com/BUGS06">Github Saya</a></p></footer>
+</body>
+</html>
